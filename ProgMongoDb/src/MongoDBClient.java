@@ -56,7 +56,7 @@ public class MongoDBClient {
 
 		if (read1.equals("store")) {
 			boolean flag = true;
-			while(flag = true) {
+			while(flag == true) {
 				System.out.println("Account's address: ");
 				String address = sc.nextLine();
 				System.out.println("Transaction hash: ");
